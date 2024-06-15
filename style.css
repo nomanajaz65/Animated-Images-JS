@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#center{
+    width: 60%;
+    height: 60%;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+
+.imagediv{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+}
+
+
+.imagediv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateY(100%);
+}
